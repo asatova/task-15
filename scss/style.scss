@@ -330,3 +330,40 @@ a {
     transition: top .3s;
   }
 }
+
+
+.images-items{
+  margin-top: 65px;
+  text-align: center;
+  img{
+    width: 40%;
+  }
+}
+.main-text{
+  margin-top: 65px;
+  text-align: center;
+  line-height: 33px;
+}
+hr{
+  margin-top: 65px;
+  border: 1px solid #000;
+}
+.new-recipes{
+  margin-top: 65px;
+  text-align: center;
+  font-size: 35px;
+}
+.menu-photos{
+ display: grid;
+  grid-template-columns: 2fr 350px;
+  padding-bottom: 50px;
+
+  }
+.one{
+  text-align: center;
+  background-image: url("/images/1.jpg");
+  width: 350px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
